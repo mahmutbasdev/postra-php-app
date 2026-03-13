@@ -1,22 +1,19 @@
 # Postra
 
-Postra is a lightweight PHP web application built from scratch using a custom MVC architecture. This project focuses on mastering backend fundamentals, authentication, and security without relying on external frameworks.
+Postra is a simple PHP web application built from scratch using a custom MVC architecture.  
+The project focuses on learning backend fundamentals, authentication, and web security without using frameworks.
 
----
+## Features
 
-## ✨ Features
+- Object-Oriented PHP (OOP)
+- User authentication (register, login, logout)
+- Post management (create, read, update, delete)
+- Custom MVC structure
+- Custom routing system
+- Security: CSRF protection, password hashing, prepared statements
+- Responsive interface with Bootstrap
 
-- **Object-Oriented Programming (OOP):** Built using classes, methods, and visibility modifiers for a scalable and organized codebase.
-- **Full Authentication:** Secure registration, login, and logout systems.
-- **Post Management (CRUD):** Create, read, update, and delete posts.
-- **Custom MVC Engine:** Separation of concerns using Models, Views, and Controllers.
-- **Security First:** Implementation of CSRF protection, password hashing, input validation, and prevention of SQL injection using prepared statements.
-- **Custom Routing:** A centralized routing system for clean URLs.
-- **Responsive UI:** Built with Bootstrap for a functional and modern interface.
-
----
-
-## 📸 Application Preview
+## Screenshots
 
 | Signup                            | Login                           |
 | --------------------------------- | ------------------------------- |
@@ -30,61 +27,11 @@ Postra is a lightweight PHP web application built from scratch using a custom MV
 | ------------------------------------ | --------------------------------------------- |
 | ![My Posts](docs/images/myposts.png) | ![Create Post](docs/images/create%20post.png) |
 
----
+## Installation
 
-## 📁 Project Structure
-postra/
-├── app/ # Core logic (Controllers, Models, Views)
-├── core/ # Database connection and Router classes
-├── helpers/ # Security (CSRF), Sessions, and Validation utilities
-├── public/ # Document root (index.php, CSS, JS)
-└── sql/ # Database schema and setup scripts
+Clone the repository:
 
----
-
-## 🛠️ Technologies Used
-
-- **Backend:** PHP (no frameworks)
-- **Frontend:** HTML5, CSS3, Bootstrap 5
-- **Database:** MySQL
-- **Security:** CSRF tokens, prepared statements, password hashing (bcrypt)
-- **Tools:** Git, Composer (for autoloading)
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- PHP 7.4 or higher
-- MySQL
-- Composer (optional, for autoloading)
-
-### Installation
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/yourusername/postra.git
-   cd postra
-   ```
-Set up the database
-
-Import the SQL schema from sql/create_tables.sql into your database.
-
-Update the database credentials in app/core/Database.php:
-
-Run the application
-
-Use PHP's built-in server from the public directory:
-
-bash
-php -S localhost:8000 -t public
-Then open http://localhost:8000 in your browser.
-
-🎯 Purpose
-This project was built to understand how web applications function internally. By implementing the MVC pattern and security protocols manually, I gained a deeper insight into the "under-the-hood" mechanics that modern frameworks (like Laravel) automate.
-
-
-🙏 Acknowledgements
-Inspired by the need to learn PHP and MVC architecture from scratch.
+```bash
+git clone https://github.com/yourusername/postra.git
+cd postra
+```
