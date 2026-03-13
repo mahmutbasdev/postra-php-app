@@ -13,25 +13,22 @@ The project focuses on learning backend fundamentals, authentication, and web se
 - Security: CSRF protection, password hashing, prepared statements
 - Responsive interface with Bootstrap
 
-## Screenshots
+# Postra
 
-| Signup                            | Login                           |
-| --------------------------------- | ------------------------------- |
-| ![Signup](docs/images/signup.png) | ![Login](docs/images/login.png) |
+Postra is a lightweight PHP web application built from scratch using a custom MVC architecture. 
+This project focuses on mastering backend fundamentals, authentication systems, and web security without using frameworks.
 
-| Dashboard                               | Posts Feed                                  |
-| --------------------------------------- | ------------------------------------------- |
-| ![Dashboard](docs/images/dashboard.png) | ![Posts Feed](docs/images/posts%20feed.png) |
 
-| My Posts                             | Create Post                                   |
-| ------------------------------------ | --------------------------------------------- |
-| ![My Posts](docs/images/myposts.png) | ![Create Post](docs/images/create%20post.png) |
+## Screenshots / Previews
+
+You can find screenshots of the application in the `docs/images` folder.  
+This includes views of the signup page, login, dashboard, posts feed, and post creation.
+
 
 ## Installation
 
 Clone the repository:
 
-```bash
+bash
 git clone https://github.com/yourusername/postra.git
 cd postra
-```
