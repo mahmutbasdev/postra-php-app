@@ -1,6 +1,6 @@
-CREATE DATABASE slf_platform;
+CREATE DATABASE postra;
 
-use slf_platform;
+use postra;
 
 CREATE TABLE users (
 	id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
