@@ -29,6 +29,34 @@ This includes views of the signup page, login, dashboard, posts feed, and post c
 
 Clone the repository:
 
-bash
 git clone https://github.com/yourusername/postra.git
 cd postra
+
+Create a MySQL database:
+
+CREATE DATABASE postra;
+
+Import the SQL schema from the database folder.
+
+Configure your database credentials in the database configuration file.
+
+Place the project inside your web server directory (htdocs, www, etc.) and open:
+
+http://localhost/postra
+
+
+## Purpose of the Project
+
+This project was created as a learning exercise to deeply understand how web frameworks work internally.
+
+Instead of relying on frameworks like Laravel or Symfony, Postra implements the core concepts manually:
+
+Routing
+
+MVC architecture
+
+Authentication
+
+Database abstraction
+
+Security practices
