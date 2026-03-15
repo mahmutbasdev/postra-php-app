@@ -53,7 +53,3 @@ HTTP requests and routing
 Authentication systems
 
 Web security practices
-
-By building everything from scratch without frameworks, the project focuses on understanding how web applications work internally.
-
-Security practices
