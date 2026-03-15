@@ -47,16 +47,18 @@ http://localhost/postra
 
 ## Purpose of the Project
 
-This project was created as a learning exercise to deeply understand how web frameworks work internally.
+This project was built as a learning exercise to understand the fundamentals of backend web development.
 
-Instead of relying on frameworks like Laravel or Symfony, Postra implements the core concepts manually:
+The main goal was to gain practical experience with:
 
-Routing
+Backend architecture and MVC design
 
-MVC architecture
+HTTP requests and routing
 
-Authentication
+Authentication systems
 
-Database abstraction
+Web security practices
+
+By building everything from scratch without frameworks, the project focuses on understanding how web applications work internally.
 
 Security practices
