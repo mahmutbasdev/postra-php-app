@@ -13,11 +13,6 @@ The project focuses on learning backend fundamentals, authentication, and web se
 - Security: CSRF protection, password hashing, prepared statements
 - Responsive interface with Bootstrap
 
-# Postra
-
-Postra is a lightweight PHP web application built from scratch using a custom MVC architecture. 
-This project focuses on mastering backend fundamentals, authentication systems, and web security without using frameworks.
-
 
 ## Screenshots / Previews
 
