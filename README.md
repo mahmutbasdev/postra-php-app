@@ -42,7 +42,7 @@ Configure your database credentials in the database configuration file.
 
 Place the project inside your web server directory (htdocs, www, etc.) and open:
 
-http://localhost/postra
+http://localhost/postra/public
 
 
 ## Purpose of the Project
