@@ -1,6 +1,6 @@
 # Postra
 
-Postra is a simple PHP web application built from scratch using a custom MVC architecture.  
+Postra is a PHP web application built from scratch using a custom MVC architecture.  
 The project focuses on learning backend fundamentals, authentication, and web security without using frameworks.
 
 ## Features
