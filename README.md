@@ -24,18 +24,16 @@ This includes views of the signup page, login, dashboard, posts feed, and post c
 
 Clone the repository:
 
-git clone https://github.com/yourusername/postra.git
+git clone https://github.com/mahmutbasdev/postra-php-app.git
 cd postra
 
 Create a MySQL database:
-
-CREATE DATABASE postra;
 
 Import the SQL schema from the database folder.
 
 Configure your database credentials in the database configuration file.
 
-Place the project inside your web server directory (htdocs, www, etc.) and open:
+Place the project inside your web server directory and open:
 
 http://localhost/postra/public
 
